@@ -3,7 +3,7 @@
     "name": "spr_tempSolid",
     "path": "sprites/spr_tempSolid/spr_tempSolid.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
