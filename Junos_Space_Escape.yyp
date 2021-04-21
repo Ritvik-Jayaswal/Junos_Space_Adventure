@@ -1,8 +1,14 @@
 {
   "resources": [
+    {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":6,},
+    {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":5,},
+    {"id":{"name":"spr_alienCrawler","path":"sprites/spr_alienCrawler/spr_alienCrawler.yy",},"order":5,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":0,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":3,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":2,},
+    {"id":{"name":"spr_juno","path":"sprites/spr_juno/spr_juno.yy",},"order":4,},
+    {"id":{"name":"obj_juno","path":"objects/obj_juno/obj_juno.yy",},"order":3,},
+    {"id":{"name":"obj_alienCrawler","path":"objects/obj_alienCrawler/obj_alienCrawler.yy",},"order":4,},
     {"id":{"name":"spr_tempSolid","path":"sprites/spr_tempSolid/spr_tempSolid.yy",},"order":0,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
