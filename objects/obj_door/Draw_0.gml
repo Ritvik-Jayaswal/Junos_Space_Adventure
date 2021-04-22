@@ -6,6 +6,12 @@ Psuedocode for now
 if(keycard)
 	set sprite frame to the open door frame
 
-
-draw.self()
 */
+if(instance_exists(obj_juno)){
+	if(obj_juno.hasKeycard){
+		image_index = 1;	
+	}
+}
+
+
+draw_self();
