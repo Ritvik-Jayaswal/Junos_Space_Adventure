@@ -1,0 +1,1 @@
+path_start(pth_spitter, 1, path_action_stop, true);
