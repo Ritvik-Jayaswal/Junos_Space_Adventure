@@ -1,5 +1,5 @@
 {
-  "name": "TileSet1",
+  "name": "ts_background",
   "spriteId": {
     "name": "spr_backgroundTileSet",
     "path": "sprites/spr_backgroundTileSet/spr_backgroundTileSet.yy",
