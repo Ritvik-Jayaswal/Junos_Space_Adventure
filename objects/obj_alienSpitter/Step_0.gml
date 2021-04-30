@@ -1,6 +1,6 @@
 /// @description if ready for action, decide it
 // You can write your code in this editor
-
+/*
 if (state == alienSpitterState.wait){
 	switch(irandom_range(0,1)){
 		case 1:
@@ -17,3 +17,4 @@ if (state == alienSpitterState.wait){
 	}
 	state = alienSpitterState.action;
 }
+*/

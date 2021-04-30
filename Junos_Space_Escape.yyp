@@ -29,7 +29,6 @@
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
     {"id":{"name":"spr_juno","path":"sprites/spr_juno/spr_juno.yy",},"order":7,},
     {"id":{"name":"spr_backgroundTileSet","path":"sprites/spr_backgroundTileSet/spr_backgroundTileSet.yy",},"order":11,},
-    {"id":{"name":"pth_spitter","path":"paths/pth_spitter/pth_spitter.yy",},"order":0,},
     {"id":{"name":"obj_playerbullet","path":"objects/obj_playerbullet/obj_playerbullet.yy",},"order":9,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":10,},

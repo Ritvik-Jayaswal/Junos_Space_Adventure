@@ -4,7 +4,7 @@
     "path": "sprites/spr_tempSolid/spr_tempSolid.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
