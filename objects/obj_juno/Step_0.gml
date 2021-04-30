@@ -22,7 +22,12 @@ if state == PLAYER_STATE.shooting{
 		sprite_index = spr_juno
 	}
 }
-gravity = .5
+
+if(room = rm_MidDeck){
+	gravity = 1;
+}else{
+	gravity = .5;
+}
 if instance_place(x,y+1,obj_solid){
 	gravity = 0
 }
