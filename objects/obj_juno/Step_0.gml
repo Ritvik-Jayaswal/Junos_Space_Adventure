@@ -24,7 +24,7 @@ if state == PLAYER_STATE.shooting{
 }
 
 if(room = rm_MidDeck){
-	gravity = 1;
+	gravity = .75;
 }else{
 	gravity = .5;
 }
