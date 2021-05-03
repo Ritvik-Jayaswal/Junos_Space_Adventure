@@ -34,7 +34,7 @@ if instance_place(x,y+1,obj_solid){
 vspeed = min(vspeed,12)
 if keyboard_check_pressed(ord("Z")){
 	state = PLAYER_STATE.shooting
-	instance_create_layer(x,y-10,layer,obj_playerbullet)
+	instance_create_layer(x + (image_xscale * 32) ,y-16,layer,obj_playerbullet)
 	sprite_index = spr_junoShoot
 }
 
