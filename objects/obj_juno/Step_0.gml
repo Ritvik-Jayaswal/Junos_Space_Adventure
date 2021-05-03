@@ -1,14 +1,18 @@
 /// @description Movement
 // You can write your code in this editor
 if state == PLAYER_STATE.walking{
+	image_speed = 0;
+	
 	if (keyboard_check(vk_left) and !instance_place(x-move_speed,y,obj_solid)) {
 		x += -move_speed
 		image_xscale = -1
+		image_speed = 1;
 	}
 
 	if (keyboard_check(vk_right) and !instance_place(x+move_speed,y,obj_solid)) {
 		x += move_speed
 		image_xscale = 1
+		image_speed = 1;
 	}
 }
 if (keyboard_check(vk_up)){
