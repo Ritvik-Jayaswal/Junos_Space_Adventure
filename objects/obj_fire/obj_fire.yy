@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_keycard",
-    "path": "sprites/spr_keycard/spr_keycard.yy",
+    "name": "spr_fire",
+    "path": "sprites/spr_fire/spr_fire.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_keycard","path":"objects/obj_keycard/obj_keycard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_keycard",
+  "name": "obj_fire",
   "tags": [],
   "resourceType": "GMObject",
 }
