@@ -32,12 +32,10 @@ switch(state){
 		draw_text(window_w / 2, window_h / 10, "Highscores");
 		
 		draw_set_font(fnt_highscoreSubtitle);
-		draw_set_halign(fa_right);
-		draw_text(window_w * 7 / 24, window_h * 7 / 30, "Rank  ");
-		draw_text(window_w * 12 / 24, window_h * 7 / 30, "Initials ");
-		draw_set_halign(fa_left);
-		draw_text(window_w * 12 / 24, window_h * 7 / 30, "  Time");
-		draw_text(window_w * 17 / 24, window_h * 7 / 30, " Score");
+		draw_text(window_w * 2 / 8, window_h * 7 / 30, "Rank  ");
+		draw_text(window_w * 4 / 8, window_h * 7 / 30, "Initials ");
+		draw_text(window_w * 6 / 8, window_h * 7 / 30, "  Time");
+
 		
 		
 		draw_set_font(fnt_highscoreNotes);
@@ -51,27 +49,44 @@ switch(state){
 		for(i = 0; i < 5; i++){
 			if(i == newRank){
 				draw_set_color(c_red);
-				draw_set_halign(fa_right);
-				draw_text(window_w * 7 / 24, window_h * (i + 4) / 12, rankArray[i] + "  ");
-				draw_text(window_w * 12 / 24, window_h * (i + 4) / 12, initialsArray[i] + " ");
-				draw_set_halign(fa_left);
-				draw_text(window_w * 12 / 24, window_h * (i + 4) / 12, "  10:00");
-				draw_text(window_w * 17 / 24, window_h * (i + 4) / 12, " " + string(scoreArray[i]));
+				draw_text(window_w * 2 / 8, window_h * (i + 4) / 12, rankArray[i] + "  ");
+				draw_text(window_w * 4 / 8, window_h * (i + 4) / 12, initialsArray[i] + " ");
+				draw_text(window_w * 6 / 8, window_h * (i + 4) / 12, "  10:00");
 				
 			} else {
 				draw_set_color(c_gray);
-				draw_set_halign(fa_right);
-				draw_text(window_w * 7 / 24, window_h * (i + 4) / 12, rankArray[i] + "  ");
-				draw_text(window_w * 12 / 24, window_h * (i + 4) / 12, initialsArray[i] + " ");
-				draw_set_halign(fa_left);
-				draw_text(window_w * 12 / 24, window_h * (i + 4) / 12, "  " + scr_convertTime(timeArray[i]));
-				draw_text(window_w * 17 / 24, window_h * (i + 4) / 12, " " + string(scoreArray[i]));
+				draw_text(window_w * 2 / 8, window_h * (i + 4) / 12, rankArray[i] + "  ");
+				draw_text(window_w * 4 / 8, window_h * (i + 4) / 12, initialsArray[i] + " ");
+				draw_text(window_w * 6 / 8, window_h * (i + 4) / 12, "  " + scr_convertTime(timeArray[i]));
 
 			}
 		}
 	
 		draw_set_valign(fa_top);
 		draw_set_halign(fa_left);
+		break;
+		
+	case GAME_STATE.playing:
+		draw_set_font(fnt_subtitle);
+		draw_set_color(c_red);
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_top);
+		draw_text(5, -30, scr_convertTime(date_get_second_of_year(date_current_datetime()) - game_start_time));
+		break;
+	
+	
+	case GAME_STATE.newhighscore:
+		draw_set_valign(fa_middle);
+		draw_set_halign(fa_center);
+		draw_set_font(fnt_subtitle);
+		draw_set_color(c_gray);
+		draw_text(window_w / 2, window_h * 1 / 3, "New Highscore!\n Enter Your Initials");
+		draw_text(window_w / 2, window_h * 7 / 13, initials);	
+		
+		if(curInt == 4){
+			draw_text(window_w / 2, window_h * 2 / 3, "Press ENTER to Confirm");			
+		}
+		break;
 	
 	default:
 		break;

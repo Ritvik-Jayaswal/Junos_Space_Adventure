@@ -4,6 +4,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":5,},
     {"id":{"name":"spr_alienCrawler","path":"sprites/spr_alienCrawler/spr_alienCrawler.yy",},"order":5,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":0,},
+    {"id":{"name":"scr_getKey","path":"scripts/scr_getKey/scr_getKey.yy",},"order":1,},
     {"id":{"name":"fnt_highscoreSubtitle","path":"fonts/fnt_highscoreSubtitle/fnt_highscoreSubtitle.yy",},"order":4,},
     {"id":{"name":"obj_endState","path":"objects/obj_endState/obj_endState.yy",},"order":8,},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},"order":13,},

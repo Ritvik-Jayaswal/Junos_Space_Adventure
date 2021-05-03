@@ -12,19 +12,19 @@ enum GAME_STATE{
 	paused,
 	win,
 	lose,
+	blank,
 	newhighscore,
-	savehighscore,
 	highscore
 }
 
 state = GAME_STATE.title;
 flash_state = true;
 alarm[0] = 60;
+game_start_time = 0;
 
 
 //Highscore Table Read/Create
 rankArray = array_create(5);
-scoreArray = array_create(5);
 initialsArray = array_create(5);
 timeArray = array_create(5);
 newRank = -1;
@@ -39,11 +39,6 @@ if(file_exists("Highscores.txt")){
 		//Get rank
 		index = string_pos_ext(" ", temp, 1);
 		rankArray[i] = string_copy(temp, 1, index - 1);
-		
-		//Get score
-		oldindex = index + 1;
-		index = string_pos_ext(" ", temp, oldindex);
-		scoreArray[i] = real(string_copy(temp, oldindex, index - oldindex));
 		
 		//Get initials
 		oldindex = index + 1;
@@ -60,7 +55,6 @@ if(file_exists("Highscores.txt")){
 	file_text_close(file);
 }else{
 	for(i = 0; i < 5; i++){
-		scoreArray[i] = (7 - i);
 		initialsArray[i] = "JNO";
 		timeArray[i] = (11 + i) * 60;
 	}
