@@ -51,7 +51,7 @@ switch(state){
 				draw_set_color(c_red);
 				draw_text(window_w * 2 / 8, window_h * (i + 4) / 12, rankArray[i] + "  ");
 				draw_text(window_w * 4 / 8, window_h * (i + 4) / 12, initialsArray[i] + " ");
-				draw_text(window_w * 6 / 8, window_h * (i + 4) / 12, "  10:00");
+				draw_text(window_w * 6 / 8, window_h * (i + 4) / 12, "  " + scr_convertTime(timeArray[i]));
 				
 			} else {
 				draw_set_color(c_gray);

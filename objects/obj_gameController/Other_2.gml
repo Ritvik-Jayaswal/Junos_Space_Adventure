@@ -47,7 +47,7 @@ if(file_exists("Highscores.txt")){
 		
 		//Get time
 		oldindex = index + 1;
-		//timeArray[i] = real(string_copy(temp, oldindex, string_length(temp) - oldindex));
+		timeArray[i] = real(string_copy(temp, oldindex, string_length(temp) - oldindex));
 		
 		i++;
 	}
