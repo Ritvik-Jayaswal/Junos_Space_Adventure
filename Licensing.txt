@@ -1,2 +1,38 @@
 https://make8bitart.com/
 All art from this site created by Michael Halverson
+
+Creepy music by Victornatas (snd_mainMusic)
+License: CC BY 3.0 (Attibution 3.0 Unported)
+https://freesound.org/people/Victornatas/sounds/551567/
+
+Space Sounds by IFartInUrGeneralDirection (snd_bossMusic)
+License: CC BY 3.0 (Attibution 3.0 Unported)
+https://freesound.org/people/IFartInUrGeneralDirection/sounds/76420/
+
+Creatures by Andromadax24 (snd_bossDeath)
+License: CC BY 3.0 (Attibution 3.0 Unported)
+https://freesound.org/people/Andromadax24/sounds/177428/
+
+Squelchy Squirty Sounds by JeffNevington (snd_flyingDeath)
+License: CC BY 3.0 (Attibution 3.0 Unported)
+https://freesound.org/people/JeffNevington/sounds/414746/
+
+deaths by Michel88 (snd_alienDeath)
+License: CC
+https://freesound.org/people/Michel88/sounds/76962/
+
+8Bit Video Games by sharesynth (snd_laser)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/sharesynth/sounds/341235/
+
+8 bit Death sound by MentosLat (snd_death)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/MentosLat/sounds/417486/
+
+oof by fotoshop (snd_grunt)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/fotoshop/sounds/47356/
+
+Retro Jump SFX by suntemple (snd_jump)
+License: CC0 1.0 (CCO 1.0 Unviersal)
+https://freesound.org/people/suntemple/sounds/253178/
