@@ -17,6 +17,7 @@ enum GAME_STATE{
 	highscore
 }
 
+audio_play_sound(snd_mainMusic,1,true)
 state = GAME_STATE.title;
 flash_state = true;
 alarm[0] = 60;

@@ -36,6 +36,7 @@ if (isHurt){
 }
 if health <= 0{
 	instance_destroy();
+	audio_play_sound(snd_death,1,false)
 }
 if(room = rm_MidDeck){
 	gravity = .75;

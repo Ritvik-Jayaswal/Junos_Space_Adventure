@@ -6,6 +6,7 @@ if (vspeed > 0 and y < other.y){
 }
 else{
 	if !isHurt{
+		audio_play_sound(snd_grunt,1,false)
 		health -= 5;
 		isHurt = true;
 	}
