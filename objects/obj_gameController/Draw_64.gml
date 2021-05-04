@@ -75,6 +75,14 @@ switch(state){
 		draw_healthbar(8,160,256,256,health,c_black,c_red,c_lime,0,true,true);
 		break;
 	
+	case GAME_STATE.win:
+		draw_set_valign(fa_middle);
+		draw_set_halign(fa_center);
+		draw_set_font(fnt_subtitle);
+		draw_set_color(c_gray);
+		draw_text(window_w / 2, window_h * 1 / 3, "You Escaped!");
+		draw_text(window_w / 2, window_h * 2 / 3, "Press ENTER to continue");
+		break;
 	
 	case GAME_STATE.newhighscore:
 		draw_set_valign(fa_middle);

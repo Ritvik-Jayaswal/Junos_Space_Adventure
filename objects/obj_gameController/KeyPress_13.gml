@@ -6,18 +6,11 @@ switch(state){
 	case GAME_STATE.title:
 		state = GAME_STATE.playing;
 		game_start_time = date_get_second_of_year(date_current_datetime());
-		//alarm[1] = 30;
+		health = 100;
 		room_goto_next();
 		break;
 	
-	//Remove later
-	case GAME_STATE.playing:
-		state = GAME_STATE.playing;
-		if(room == rm_HangarDeck){
-	
-		} else
-			room_goto_next();
-		break;
+
 		
 	case GAME_STATE.win:
 		newRank = -1;
