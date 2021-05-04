@@ -4,3 +4,6 @@ if instance_exists(obj_juno){
 	direction = point_direction(x,y,obj_juno.x,obj_juno.y);
 }
 speed = 7
+
+
+audio_play_sound(snd_laser,1,false);

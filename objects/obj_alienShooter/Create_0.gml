@@ -7,3 +7,6 @@ enum ENEMY_STATE{
 	aggro,
 }
 state = ENEMY_STATE.regular
+
+hits = 3;
+isHurt = false;

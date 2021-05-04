@@ -9,6 +9,7 @@ switch(state){
 	
 	case GAME_STATE.playing:
 		state = GAME_STATE.title;
+		health = 100;
 		room_goto(rm_Menu);
 		break;
 		

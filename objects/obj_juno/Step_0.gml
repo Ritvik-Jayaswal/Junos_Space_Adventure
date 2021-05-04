@@ -18,6 +18,7 @@ if state == PLAYER_STATE.walking{
 if (keyboard_check(vk_up)){
 	if instance_place(x,y+1,obj_solid){
 		vspeed = -jump_height
+		audio_play_sound(snd_jump,1,false);
 	}
 }
 if state == PLAYER_STATE.shooting{

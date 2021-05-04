@@ -1,7 +1,7 @@
 /// @description Shoot when the player sees me
 // You can write your code in this editor
 if (instance_exists(obj_juno)){
-	inView = distance_to_object(obj_juno) < 700
+	inView = distance_to_object(obj_juno) < 350
 	if (inView && state == ENEMY_STATE.regular){
 		state = ENEMY_STATE.aggro;
 		hspeed = 0;
