@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 
+audio_stop_sound(snd_mainMusic);
+audio_play_sound(snd_bossMusic,1,true);
+
 enum BOSS_STATE{
 	start,
 	wait,

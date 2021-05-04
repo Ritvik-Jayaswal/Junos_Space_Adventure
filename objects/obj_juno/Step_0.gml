@@ -22,7 +22,7 @@ if (keyboard_check(vk_up)){
 	}
 }
 if state == PLAYER_STATE.shooting{
-	if distance_to_object(obj_playerbullet) > 40{
+	if distance_to_object(obj_playerbullet) > 100{
 		state = PLAYER_STATE.walking
 		sprite_index = spr_juno
 	}
@@ -48,7 +48,7 @@ if instance_place(x,y+1,obj_solid){
 	gravity = 0
 }
 vspeed = min(vspeed,12)
-if keyboard_check_pressed(ord("Z")){
+if keyboard_check_pressed(ord("Z")) && state == PLAYER_STATE.walking{
 	state = PLAYER_STATE.shooting
 	instance_create_layer(x + (image_xscale * 32) ,y-16,layer,obj_playerbullet)
 	sprite_index = spr_junoShoot
