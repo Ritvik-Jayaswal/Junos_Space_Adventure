@@ -34,7 +34,7 @@ if (isHurt){
 		timer = 45
 	}
 }
-if health = 0{
+if health <= 0{
 	instance_destroy();
 }
 if(room = rm_MidDeck){
