@@ -19,7 +19,7 @@ switch(state){
 		}
 		
 		draw_set_font(fnt_instructions);
-		draw_text(window_w / 2, window_h * 7 / 10, "CONTROLS WILL GO HERE");
+		draw_text(window_w / 2, window_h * 7 / 10, "Press Z to shoot and the arrow keys to move");
 		draw_text(window_w / 2, window_h * 8 / 10, "Press H to view the highscore table");
 		
 		break;
@@ -72,6 +72,7 @@ switch(state){
 		draw_set_halign(fa_left);
 		draw_set_valign(fa_top);
 		draw_text(5, -30, scr_convertTime(date_get_second_of_year(date_current_datetime()) - game_start_time));
+		draw_healthbar(8,160,256,256,health,c_black,c_red,c_lime,0,true,true);
 		break;
 	
 	
@@ -86,6 +87,18 @@ switch(state){
 		if(curInt == 4){
 			draw_text(window_w / 2, window_h * 2 / 3, "Press ENTER to Confirm");			
 		}
+		break;
+		
+	case GAME_STATE.lose:
+		draw_set_valign(fa_middle);
+		draw_set_halign(fa_center);
+		draw_set_font(fnt_subtitle);
+		draw_set_color(c_gray);
+		draw_text(window_w / 2, window_h * 1 / 3, "You Died");
+		
+		
+		draw_text(window_w / 2, window_h * 2 / 3, "Press ESC to return to the menu");			
+		
 		break;
 	
 	default:

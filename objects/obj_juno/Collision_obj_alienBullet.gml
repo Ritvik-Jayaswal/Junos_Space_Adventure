@@ -1,4 +1,4 @@
-/// @description Enemy - Flyer
+/// @description Insert description here
 // You can write your code in this editor
 if (vspeed > 0 and y < other.y){
 	instance_destroy(other.id)
@@ -6,7 +6,7 @@ if (vspeed > 0 and y < other.y){
 }
 else{
 	if !isHurt{
-		health -= 10;
+		health -= 5;
 		isHurt = true;
 	}
 }

@@ -17,6 +17,11 @@ switch(state){
 		newRank = -1;
 		room_goto(rm_Menu);
 		break;
+		
+	case GAME_STATE.lose:
+		state = GAME_STATE.title;
+		room_goto(rm_Menu);
+		break;
 	
 	default:
 		break;

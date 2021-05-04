@@ -26,7 +26,17 @@ if state == PLAYER_STATE.shooting{
 		sprite_index = spr_juno
 	}
 }
-
+if (isHurt){
+	timer -= 1
+	show_debug_message(timer)
+	if (timer <= 0){
+		isHurt = false;
+		timer = 45
+	}
+}
+if health = 0{
+	instance_destroy();
+}
 if(room = rm_MidDeck){
 	gravity = .75;
 }else{

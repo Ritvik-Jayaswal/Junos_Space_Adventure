@@ -44,3 +44,10 @@ if(state == GAME_STATE.newhighscore){
 
 	}	
 }
+
+if(state == GAME_STATE.lose){
+	if room != rm_GameOver{
+		room_goto(rm_GameOver);
+	}
+	
+}
