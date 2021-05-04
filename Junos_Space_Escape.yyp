@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"pth_bossMoveLeftDown","path":"paths/pth_bossMoveLeftDown/pth_bossMoveLeftDown.yy",},"order":1,},
+    {"id":{"name":"tml_bossMove","path":"timelines/tml_bossMove/tml_bossMove.yy",},"order":3,},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":6,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":5,},
     {"id":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},"order":16,},
@@ -15,6 +17,7 @@
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":2,},
     {"id":{"name":"spr_alienBoss","path":"sprites/spr_alienBoss/spr_alienBoss.yy",},"order":15,},
     {"id":{"name":"obj_alienShooter","path":"objects/obj_alienShooter/obj_alienShooter.yy",},"order":12,},
+    {"id":{"name":"pth_bossMoveRightDown","path":"paths/pth_bossMoveRightDown/pth_bossMoveRightDown.yy",},"order":3,},
     {"id":{"name":"fnt_instructions","path":"fonts/fnt_instructions/fnt_instructions.yy",},"order":2,},
     {"id":{"name":"spr_junoShoot","path":"sprites/spr_junoShoot/spr_junoShoot.yy",},"order":4,},
     {"id":{"name":"snd_death","path":"sounds/snd_death/snd_death.yy",},"order":2,},
@@ -22,6 +25,7 @@
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},"order":0,},
     {"id":{"name":"rm_BridgeDeck","path":"rooms/rm_BridgeDeck/rm_BridgeDeck.yy",},"order":4,},
     {"id":{"name":"obj_rocket","path":"objects/obj_rocket/obj_rocket.yy",},"order":14,},
+    {"id":{"name":"pth_bossMoveRightUp","path":"paths/pth_bossMoveRightUp/pth_bossMoveRightUp.yy",},"order":2,},
     {"id":{"name":"obj_juno","path":"objects/obj_juno/obj_juno.yy",},"order":3,},
     {"id":{"name":"fnt_highscoreNotes","path":"fonts/fnt_highscoreNotes/fnt_highscoreNotes.yy",},"order":5,},
     {"id":{"name":"spr_alienSpitter","path":"sprites/spr_alienSpitter/spr_alienSpitter.yy",},"order":8,},
@@ -54,12 +58,14 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":10,},
     {"id":{"name":"snd_flyingDeath","path":"sounds/snd_flyingDeath/snd_flyingDeath.yy",},"order":3,},
+    {"id":{"name":"tml_bossStart","path":"timelines/tml_bossStart/tml_bossStart.yy",},"order":2,},
     {"id":{"name":"rm_GameOver","path":"rooms/rm_GameOver/rm_GameOver.yy",},"order":6,},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"order":2,},
     {"id":{"name":"spr_keycard","path":"sprites/spr_keycard/spr_keycard.yy",},"order":9,},
     {"id":{"name":"obj_alienBullet","path":"objects/obj_alienBullet/obj_alienBullet.yy",},"order":15,},
     {"id":{"name":"tml_spitterWait","path":"timelines/tml_spitterWait/tml_spitterWait.yy",},"order":1,},
     {"id":{"name":"obj_alienSpitter","path":"objects/obj_alienSpitter/obj_alienSpitter.yy",},"order":6,},
+    {"id":{"name":"pth_bossMoveLeftUp","path":"paths/pth_bossMoveLeftUp/pth_bossMoveLeftUp.yy",},"order":0,},
     {"id":{"name":"rm_LowerDeck","path":"rooms/rm_LowerDeck/rm_LowerDeck.yy",},"order":0,},
   ],
   "Options": [

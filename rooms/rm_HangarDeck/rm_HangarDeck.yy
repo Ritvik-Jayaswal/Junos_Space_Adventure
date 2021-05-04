@@ -18,7 +18,6 @@
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_juno","path":"objects/obj_juno/obj_juno.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":364.0,"y":640.0,"resourceVersion":"1.0","name":"inst_66D4F0D2","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_keycard","path":"objects/obj_keycard/obj_keycard.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":640.0,"resourceVersion":"1.0","name":"inst_67F1D50","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":10.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":336.0,"resourceVersion":"1.0","name":"inst_2F2D6E8E","tags":[],"resourceType":"GMRInstance",},
@@ -77,7 +76,6 @@
     {"name":"inst_66D4F0D2","path":"rooms/rm_HangarDeck/rm_HangarDeck.yy",},
     {"name":"inst_21DACB71","path":"rooms/rm_HangarDeck/rm_HangarDeck.yy",},
     {"name":"inst_3BD79A2C","path":"rooms/rm_HangarDeck/rm_HangarDeck.yy",},
-    {"name":"inst_67F1D50","path":"rooms/rm_HangarDeck/rm_HangarDeck.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
