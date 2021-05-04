@@ -7,8 +7,8 @@ if(state == BOSS_STATE.wait){
 
 
 	
-	timeline_index = tml_bossMove;
+	timeline_index = tml_bossEnemy;
 	timeline_position = 0;
 	timeline_running = true;
-	state = BOSS_STATE.move;
+	state = BOSS_STATE.enemy;
 }
