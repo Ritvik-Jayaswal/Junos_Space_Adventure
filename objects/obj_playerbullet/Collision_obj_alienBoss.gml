@@ -1,6 +1,6 @@
 /// @description decrement health
 // You can write your code in this editor
-other.cur_health -= 1.5;
+other.cur_health -= 0.5;
 other.isHurt = true;
 other.alarm[2] = 20;
 
